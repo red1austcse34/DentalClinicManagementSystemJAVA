@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="sens" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="sensi" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="back" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="age" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextField1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Jawpain" linkSize="4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="blTend" linkSize="4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="sex" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="selectSex" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="hep" linkSize="4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="HBP" linkSize="4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="mStatus" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="selectMstatus" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="dia" linkSize="4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="KidD" linkSize="4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Nme" linkSize="1" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                          <Component id="address" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="number" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="cNumber" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="gumd" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="badbr" linkSize="4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Name" linkSize="3" min="-2" pref="282" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="bcond" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="addr" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="tloose" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cpain" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="gbleed" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="occu" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="med" linkSize="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pregnant" linkSize="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Allergy" linkSize="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectOccu" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="htr" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lungD" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="rFev" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="anemia" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="asthma" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="livD" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aids" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="add" linkSize="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Nme" linkSize="2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="Name" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bcond" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gbleed" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="address" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addr" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tloose" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpain" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="number" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cNumber" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gumd" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="badbr" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="age" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Jawpain" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="blTend" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sex" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectSex" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hep" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="HBP" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mStatus" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectMstatus" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dia" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="KidD" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="occu" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectOccu" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="htr" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="livD" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lungD" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="asthma" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Allergy" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rFev" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aids" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pregnant" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="anemia" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="add" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="med" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sens" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sensi" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="back" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Nme">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="address">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="number">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Contact No."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="age">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sex">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Sex"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mStatus">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Marital Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="occu">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Occupation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Name">
+    </Component>
+    <Component class="javax.swing.JTextField" name="addr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="selectSex">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Male"/>
+            <StringItem index="1" value="Female"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selectSexActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="selectMstatus">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Married"/>
+            <StringItem index="1" value="Unmarried"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="selectOccu">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Job"/>
+            <StringItem index="1" value="Business"/>
+            <StringItem index="2" value="Student"/>
+            <StringItem index="3" value="Housewife"/>
+            <StringItem index="4" value="Retired"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="add">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bcond">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bad Condition"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="gbleed">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gum Bleeds"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tloose">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Teeth Loose"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cpain">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chest Pain"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="gumd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gum Diesease"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="badbr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bad Breath"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Jawpain">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jaw Pain"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="blTend">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bleeding Tend."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="hep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hepatitis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="dia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diabetes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="htr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Heart Trouble"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="HBP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="High BP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="KidD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kidney Disease"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="livD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Liver Disease"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="lungD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lung Diesease"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="asthma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Asthma"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="rFev">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rheumatic"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="aids">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AIDS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="anemia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anemia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Allergic To"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Pregnant"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Medicine"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Allergy">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pregnant">
+    </Component>
+    <Component class="javax.swing.JTextField" name="med">
+    </Component>
+    <Component class="javax.swing.JLabel" name="sens">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sentitivity To"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="sensi">
+    </Component>
+    <Component class="javax.swing.JButton" name="back">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
